@@ -11,7 +11,7 @@ app.get("/api/hello", (req, res) => {
 })
 
 app.get("/api/products", (req, res) => {
-    res.json({ message: "All Products" })
+    res.json({ message: "All Products are available" })
 })
 
 app.listen(PORT, () => {

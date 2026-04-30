@@ -6,6 +6,10 @@ const PORT = process.env.PORT || 3000
 
 app.use(express.json())
 
+app.use(cors({
+    origin: 'https://growithpro.github.io/fullstack/'
+}))
+
 let products = [
     { "id": 1, "pname": "product1", "price": 3000 },
     { "id": 2, "pname": "product2", "price": 4000 },

@@ -14,6 +14,7 @@ let products = [
     { "id": 3, "pname": "product3", "price": 5000 },
     { "id": 4, "pname": "product4", "price": 6000 },
     { "id": 5, "pname": "product5", "price": 7000 },
+     { "id": 6, "pname": "product6", "price": 8000 },
 ]
 
 

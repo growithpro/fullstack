@@ -5,7 +5,7 @@ function App() {
   const [data,setData]=useState([])
   useEffect(async () => {
 
-    const response = await fetch("https://fullstack-6gqe.onrender.com/api/products")
+    const response = await fetch("https://fullstack-6gqe.onrender.com/api/hello")
     const products = await response.json();
 
     setData(products);
